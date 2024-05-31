@@ -10,7 +10,7 @@
 					"FNAME">Firstname:</label>
 
 					<div class="col-md-8">
-					  <input name="JOBID" type="hidden" value="<?php echo $_GET['job'];?>">
+					  <input name="JOBID" type="hidden">
 					   <input class="form-control input-sm" id="FNAME" name="FNAME" placeholder=
 					      "Firstname" type="text" value=""  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
 					</div>
@@ -66,7 +66,7 @@
 					<div class="col-md-8">
 					 <div class="col-lg-5">
 					    <div class="radio">
-					      <label><input checked id="optionsRadios1" checked="True" name="optionsRadios" type="radio" value="Female">Female</label>
+					      <label><input id="optionsRadios1"  name="optionsRadios" type="radio" value="Female">Female</label>
 					    </div>
 					  </div>
 
@@ -157,7 +157,7 @@
 			    <div class="col-md-8">
 			      
 			       <input class="form-control input-sm" id="TELNO" name="TELNO" placeholder=
-			          "Contact No." type="text" any value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
+			          "Contact No." type="tel" any value="" required  onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
 			    </div>
 			  </div>
 			</div> 
@@ -218,12 +218,12 @@
 			<div class="form-group">
 			  <div class="col-md-8">
 			    <label class="col-md-4 control-label" for=
-			    "DEGREE">Educational Attainment:</label>
+			    "DEGREE">Educational Details:</label>
 
 			    <div class="col-md-8">
 			      <input name="deptid" type="hidden" value="">
 			      <input  class="form-control input-sm" id="DEGREE" name="DEGREE" placeholder=
-			          "Educational Attainment"    onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
+			          "Educational Details"    onkeyup="javascript:capitalize(this.id, this.value);" autocomplete="off">
 			      </div>
 			  </div>
 			</div>  
